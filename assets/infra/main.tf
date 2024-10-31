@@ -52,7 +52,7 @@ resource "aws_iam_policy" "iam_policy_for_resume_project" {
 			"dynamodb:GetItem",
             "dynamodb:PutItem"
           ],
-          "Resource" : "arn:aws:dynamodb:*:*:table/cloud-cv"
+          "Resource" : "arn:aws:dynamodb:*:*:table/cloudcv"
         },
       ]
   })
